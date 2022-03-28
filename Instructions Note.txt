@@ -1,0 +1,34 @@
+1. Create the necessary data structures to contain the data specified in the Appendix ensuring that data integrity is enforced
+-- Scripts CREATE_TABLE_DEPARTMENT.sql and CREATE_TABLE_EMPLOYEES.sql are to create tables
+
+2. Populate the Departments and Employees data structures using the data specified in the Appendix
+-- Script POPULATE_TABLES.sql loads the tables
+
+3. Create an appropriate executable database object to allow an Employee to be created
+-- Database package procedure PACK_MANAGE_EMPLOYEE.PROC_CREATE_EMP is created.
+
+4. Create an appropriate executable database object to allow the Salary for an Employee to be increased or decreased by a percentage
+-- Database package procedure PACK_MANAGE_EMPLOYEE.PROC_UPDATE_SALARY is created.
+
+5. Create an appropriate executable database object to allow the transfer of an Employee to a different Department
+-- Database package procedure PACK_MANAGE_EMPLOYEE.PROC_TRANSFER_DEPT is created.
+
+6. Create an appropriate executable database object to return the Salary for an Employee.
+-- Database package procedure PACK_MANAGE_EMPLOYEE.PROC_GET_SALARY is created.
+
+7. Write a report to show all Employees for a Department
+-- Script REPORT_QUERIES.sql is created to run report
+
+8. Write a report to show the total of Employee Salary for a Department
+-- Script REPORT_QUERIES.sql is created to run report
+
+
+Build Instructions: Execute below scripts in mentioned sequence
+1. CREATE_TABLE_DEPARTMENT.sql
+2. CREATE_TABLE_EMPLOYEES.sql
+3. POPULATE_TABLES.sql
+4. PACK_MANAGE_EMPLOYEE.sql
+
+Run Instructions: Run below scripts 
+1. UNIT_TESTS.sql
+2. REPORT_QUERIES.sql
